@@ -1,0 +1,161 @@
+%-------------------------
+% Resume in Latex
+% Author : Aamogh Sawant
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{tabularx}
+\usepackage{fontspec}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.75in}
+\addtolength{\textheight}{1.25in}
+
+\setmainfont{Times New Roman}
+
+% Section title format
+\titleformat{\section}{
+  \scshape\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r} \textbf{#1} & #2 \\ \textit{\small#3} & \textit{\small #4} \end{tabular*}\vspace{-5pt}}
+\newcommand{\resumeSubSubheading}[2]{\item \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r} \textit{\small#1} & \textit{\small#2} \end{tabular*}\vspace{-5pt}}
+\newcommand{\resumeProjectHeading}[2]{\item \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r} \small#1 & #2 \end{tabular*}\vspace{-5pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Lorem Ipsum} \\ \vspace{1pt}
+    \small \href{mailto:aamoghsawantt@gmail.com}{Lorem Ipsum} $|$ 
+    \href{https://linkedin.com/in/aamoghsawant}{\underline{Lorem Ipsum}} $|$ 
+    \href{https://github.com/aamoghS}{\underline{Lorem Ipsum}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Central Florida - Lorem Ipsum}{Orlando, FL}
+      {Lorem Ipsum}{May 2027}
+    \resumeItemListStart
+      \resumeItem{Lorem Ipsum}
+      \resumeItem{Lorem Ipsum}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Lorem Ipsum}{Orlando, FL}
+      {Lorem Ipsum}{Lorem Ipsum}
+      \resumeItemListStart
+             \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+            \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+      \resumeItemListEnd
+
+
+
+    \resumeSubheading
+      {Kumon}{Jacksonville, FL}
+      {Center Assistant}{August 2020 -- May 2024}
+      \resumeItemListStart
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {First Robotics}{Jacksonville, FL}
+      {Team Resistance Programmer}{August 2022 -- April 2024}
+      \resumeItemListStart
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {NLP Logix}{Jacksonville, FL}
+      {Data Science and Machine Learning Intern}{June 2023 -- August 2023}
+      \resumeItemListStart
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Knight Hack} $|$ \emph{Next.js, Node.js, MongoDB}}{September 2024}
+      \resumeItemListStart
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+      \resumeItemListEnd
+
+        \resumeProjectHeading
+      {\textbf{ShellHacks 2024} $|$ \emph{Typescript, Javascript, Google Api}}{September 2024}
+      \resumeItemListStart
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.}
+      \resumeItemListEnd
+
+
+    \resumeProjectHeading
+      {\textbf{Olympic Medal Counter} $|$ \emph{Python, BeautifulSoup, Matplotlib}}{March 2023}
+      \resumeItemListStart
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. }
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Music Analyzer} $|$ \emph{Python, Spotify API, Pandas}}{June 2023}
+      \resumeItemListStart
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. }
+        \resumeItem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Lorem Ipsum} \\
+      \textbf{Technologies}{: Lorem Ipsum} \\
+      \textbf{Libraries}{: Lorem Ipsum} \\
+      \textbf{Tools}{: Lorem Ipsum}
+    }
+  \resumeSubHeadingListEnd
+
+%-----------ASSOCIATIONS-----------
+
+\end{document}
